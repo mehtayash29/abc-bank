@@ -1,0 +1,31 @@
+<%- include('header') %>
+
+    <form class="needs-validation" action="/pay" method="post">
+        <div class="pay-data">
+            <h1>Transaction</h1>
+            <div>
+                <label for="number" class="form-label">Your Account No.</label>
+                <input type="text" class="form-control" id="Number" placeholder="Enter id" name="sid" required="">
+                <div class="invalid-feedback">
+                    Valid id is required.
+                </div>
+            </div>
+            <div>
+                <label for="number" class="form-label">Recevier Account No.</label>
+                <input type="text" class="form-control" id="Number" placeholder="Enter id" name="rid" required="">
+                <div class="invalid-feedback">
+                    Valid id is required.
+                </div>
+            </div>
+            <div>
+                <label for="number" class="form-label">Rupees</label>
+                <input type="text" class="form-control" id="Number" placeholder="" name="rs" required="">
+                <div class="invalid-feedback">
+                    Valid Rupees is required.
+                </div>
+            </div>
+            <button class="w-50 btn btn-dark" type="submit" style="margin:5% 10%;">PAY</button>
+        </div>
+    </form>
+
+    <%- include('footer') %>

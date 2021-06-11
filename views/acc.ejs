@@ -1,0 +1,23 @@
+<%- include('header') %>
+    <div class="details">
+        <p><span class="head">First Name: </span><%=newacc.fname%>
+        </p>
+        <p><span class="head">Last Name: </span><%=newacc.lname%>
+        </p>
+        <p><span class="head">Phone Number: </span><%=newacc.number%>
+        </p>
+        <p><span class="head">Email: </span><%=newacc.email%>
+        </p>
+        <p><span class="head">Address: </span><%=newacc.addr%>
+        </p>
+        <p><span class="head">Zip: </span><%=newacc.zip%>
+        </p>
+        <p><span class="head">Account Number: </span><%=newacc.accno%>
+        </p>
+        <p><span class="head">Branch: </span><%=newacc.branch%>
+        </p>
+        <p><span class="head">Current Balance: </span><%=newacc.balance%>
+        </p>
+        <a type="button" class="btn btn-dark" style="width: 30%;" href="/pay">Pay</a>
+    </div>
+<%- include('footer') %>

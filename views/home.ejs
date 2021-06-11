@@ -1,0 +1,24 @@
+<%- include('header') %>
+
+<table>
+    <tr style="font-weight: bold">
+        <td>No.</td>
+        <td>First Name</td>
+        <td>Phone No.</td>
+        <td>Account No.</td>
+        <td>Balance</td>
+        <td></td>
+    </tr>
+    <%  for(var i=0;i<newdata.length;i++) { %>
+        <tr>
+            <td><%=i+1%></td>
+            <td><%=newdata[i].fname%></td>
+            <td><%=newdata[i].number%></td>
+            <td><%=newdata[i].accno%></td>
+            <td><%=newdata[i].balance%></td>
+            <td><a href="/<%=newdata[i].accno%>">Read more</a></td>
+        </tr>
+    <%  } %>
+</table>
+
+<%- include('footer') %>

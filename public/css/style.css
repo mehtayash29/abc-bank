@@ -1,0 +1,49 @@
+body
+{
+    background-color: #e4efe7;
+    background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+    font-family: 'Mate SC', serif;
+}
+table
+{
+    margin: 5% 20%;
+    width: 60%;
+    background-color: #e8eae6;
+}
+table,th,td
+{
+    padding: 10px;
+    border: 1px solid black;
+    font-size: large;
+}
+nav
+{
+    background-color: #aebdab;
+}
+.details{
+    margin: 5% 0 5% 20%;
+    width: 60%;
+    border: 2px solid #435560;
+    box-shadow: 10px 10px #798777;
+    padding: 5% 0 2% 20%;
+    border-radius: 10px;
+    background-color: #e8eae6;
+}
+.head
+{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.pay-data
+{
+    margin: 5% 20%;
+    padding: 5% 0 0% 8%;
+    border: 2px solid #435560;
+    box-shadow: 10px 10px #798777;
+    width: 50%;
+    background-color: #e8eae6;
+}
+.pay-data input
+{
+    width: 80%;
+}

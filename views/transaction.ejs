@@ -1,0 +1,20 @@
+<%- include('header') %>
+
+    <table>
+        <tr style="font-weight: bold">
+           <td>No.</td>
+           <td>Sender Account No.</td>
+           <td>Recevier Account No.</td>
+           <td>Money</td>
+        </tr>
+        <%  for(var i=0;i<newdata.length;i++) { %>
+            <tr>
+                <td><%=i+1%></td>
+                <td><%=newdata[i].sid%></td>
+                <td><%=newdata[i].rid%></td>
+                <td><%=newdata[i].money%></td>
+            </tr>
+        <%  } %>
+    </table>
+
+    <%- include('footer') %>
